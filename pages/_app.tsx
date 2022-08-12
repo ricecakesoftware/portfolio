@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { CssBaseline } from '@mui/material';
-import Head from 'next/head';
+import { createTheme, ThemeProvider } from '@mui/material/styles'
+import { CssBaseline } from '@mui/material'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const theme = createTheme({
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     typography: {
       fontFamily: ['BIZ UDPGothic','Hiragino Sans','sans-serif'].join(','),
     }
-  });
+  })
   return (
     <>
       <Head>

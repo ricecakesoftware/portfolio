@@ -1,5 +1,5 @@
-import { Grid, Stack, Avatar, Typography } from "@mui/material"
-import { ReactNode } from "react"
+import { Grid, Stack, Avatar, Typography } from '@mui/material'
+import { ReactNode } from 'react'
 
 interface Props {
   icon: ReactNode

@@ -1,4 +1,4 @@
-import { AppBar, Box, Container, Grid, Rating, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Container, Grid, Rating, Toolbar, Typography } from '@mui/material'
 
 export default function Skill() {
   return (

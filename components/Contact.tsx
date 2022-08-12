@@ -1,5 +1,5 @@
-import { Email, GitHub, Twitter } from "@mui/icons-material";
-import { AppBar, Container, Link, Stack, Toolbar, Typography } from "@mui/material";
+import { Email, GitHub, Twitter } from '@mui/icons-material'
+import { AppBar, Container, Link, Stack, Toolbar, Typography } from '@mui/material'
 
 export default function Contact() {
   return (
@@ -14,7 +14,7 @@ export default function Contact() {
         <Stack direction='row' spacing={2} justifyContent='center' sx={{ py: 2 }}>
           <Link href='https://twitter.com/ricecakesw'><Twitter fontSize='large' /></Link>
           <Link href='https://github.com/ricecakesoftware'><GitHub fontSize='large' /></Link>
-          <Link onClick={() => { location.href = 'mailto:ricecakesoftware@gmail.com'; }}><Email fontSize='large' /></Link>
+          <Link onClick={() => { location.href = 'mailto:ricecakesoftware@gmail.com' }}><Email fontSize='large' /></Link>
         </Stack>
       </Container>
     </>
