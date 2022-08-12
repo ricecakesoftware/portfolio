@@ -42,7 +42,8 @@ export default function Works() {
         <Container maxWidth='sm' sx={{ py: 2 }}>
           <Stack direction='column' spacing={2}>
             {data.map((work: any) => (
-              <Work icon={work.icon == 'DesktopWindows' ? <DesktopWindows /> : work.icon == 'Web' ? <Web /> : <DeveloperBoard />}
+              <Work key={work._id}
+                    icon={work.icon == 'DesktopWindows' ? <DesktopWindows /> : work.icon == 'Web' ? <Web /> : <DeveloperBoard />}
                     name={work.name}
                     scale={work.scale + '名'}
                     roll={work.roll}
