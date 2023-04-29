@@ -1,4 +1,4 @@
-import { AppBar, Avatar, Box, Chip, Container, Stack, Toolbar, Typography } from '@mui/material'
+import { AppBar, Avatar, Box, Chip, Container, Image, Stack, Toolbar, Typography } from '@mui/material'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Skill from '../components/Skill'
@@ -14,8 +14,7 @@ export default function Index() {
       </AppBar>
       <Box component='main'>
         <Container sx={{ py: 8 }} maxWidth='md'>
-          <Typography component='h1' variant='h2' align='center' color='text.primary'>Rice Cake Software</Typography>
-          <Typography variant='h3' align='center' color='text.secondary'>Portfolio</Typography>
+          <Image src='hero.png' />
         </Container>
         <Container maxWidth='md'>
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent='center'>
