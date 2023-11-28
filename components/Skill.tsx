@@ -40,6 +40,8 @@ export default function Skill() {
           <Grid item xs={6} sm={3}><Rating defaultValue={3} max={4} size='large' readOnly /></Grid>
           <Grid item xs={6} sm={3}><Typography variant='body1' component='legend' align='center' color='text.primary'>Keras</Typography></Grid>
           <Grid item xs={6} sm={3}><Rating defaultValue={4} max={4} size='large' readOnly /></Grid>
+          <Grid item xs={6} sm={3}><Typography variant='body1' component='legend' align='center' color='text.primary'>PyTorch</Typography></Grid>
+          <Grid item xs={6} sm={3}><Rating defaultValue={4} max={4} size='large' readOnly /></Grid>
           <Grid item xs={6} sm={3}><Typography variant='body1' component='legend' align='center' color='text.primary'>Next.js</Typography></Grid>
           <Grid item xs={6} sm={3}><Rating defaultValue={2} max={4} size='large' readOnly /></Grid>
           <Grid item xs={12}><Typography variant='h5' align='center' color='text.primary'>データベース</Typography></Grid>
