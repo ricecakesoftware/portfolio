@@ -1,4 +1,4 @@
-import { AppBar, Avatar, Box, Chip, Container, Image, Stack, Toolbar, Typography } from '@mui/material'
+import { AppBar, Avatar, Box, Card, CardMedia, Chip, Container, Stack, Toolbar, Typography } from '@mui/material'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Skill from '../components/Skill'
@@ -14,7 +14,9 @@ export default function Index() {
       </AppBar>
       <Box component='main'>
         <Container sx={{ py: 8 }} maxWidth='md'>
-          <Image src='hero.png' />
+          <Card>
+            <CardMedia image='hero.png' titile='ヒーローイメージ' />
+          </Card>
         </Container>
         <Container maxWidth='md'>
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent='center'>
