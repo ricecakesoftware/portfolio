@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       },
     },
     typography: {
-      fontFamily: ['BIZ UDPGothic','Hiragino Sans','sans-serif'].join(','),
+      fontFamily: ['Noto Sans Japanese','sans-serif'].join(','),
     }
   })
   return (
