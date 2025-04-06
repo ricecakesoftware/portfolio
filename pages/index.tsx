@@ -15,7 +15,7 @@ export default function Index() {
       <Box component='main'>
         <Container sx={{ py: 8 }} maxWidth='md'>
           <Card>
-            <CardMedia image='hero.png' titile='ヒーローイメージ' />
+            <CardMedia image='hero.png' titile='ヒーローイメージ' sx={{opacity: 0.5}} />
           </Card>
         </Container>
         <Container maxWidth='md'>
