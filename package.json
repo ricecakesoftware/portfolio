@@ -14,7 +14,6 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^7.0.1",
     "mongodb": "^6.15.0",
-    "mui-image": "1.0.7",
     "next": "15.2.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
