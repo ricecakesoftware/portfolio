@@ -1,5 +1,4 @@
-import { AppBar, Avatar, Box, Chip, Container, Stack, Toolbar, Typography } from '@mui/material'
-import { Image } from 'mui-image'
+import { AppBar, Avatar, Box, Chip, Container, Image, Stack, Toolbar, Typography } from '@mui/material'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Skill from '../components/Skill'
