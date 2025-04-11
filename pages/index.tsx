@@ -15,7 +15,7 @@ export default function Index() {
       </AppBar>
       <Box component='main'>
         <Container sx={{ py: 8 }} maxWidth='md'>
-          <Image src='hero.png' alt='ヒーローイメージ' objectFit={fill} />
+          <Image src='hero.png' alt='ヒーローイメージ' />
         </Container>
         <Container maxWidth='md'>
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent='center'>
